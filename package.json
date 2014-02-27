@@ -3,7 +3,7 @@
   "theme": "syntax",
   "version": "0.0.0",
   "private": true,
-  "description": "A short description of your theme",
+  "description": "the FreshCut theme for Atom",
   "repository": "https://github.com/ceejbot/freshcut-theme",
   "license": "MIT",
   "engines": {
