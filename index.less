@@ -1,1 +1,130 @@
-@import "./stylesheets/base.less";
+.editor, .editor .gutter {
+  background-color: #26292c;
+  color: #F8F8F2;
+}
+
+.editor.is-focused .cursor {
+  border-color: #F8F8F0;
+}
+
+.editor.is-focused .selection .region {
+  background-color: #424C57;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #161A1F;
+}
+
+.comment {
+  color: #556270;
+}
+
+.string {
+  color: #e9ee00;
+}
+
+.constant.numeric {
+  color: #8FBE00;
+}
+
+.constant.language {
+  color: #8FBE00;
+}
+
+.constant.character, .constant.other {
+  color: #8FBE00;
+}
+
+.variable {
+}
+
+.keyword {
+  color: #C8D7E8;
+}
+
+.storage {
+  color: #00A8C6;
+}
+
+.storage.type {
+  font-style: italic;
+  color: #4ECDC4;
+}
+
+.entity.name.class {
+  text-decoration: underline;
+  color: #A6E22E;
+}
+
+.entity.other.inherited-class {
+  font-style: italic;
+  text-decoration: underline;
+  color: #AEE239;
+}
+
+.entity.name.tag {
+  color: #00A8C6;
+}
+
+.entity.other.attribute-name {
+  color: #4ECDC4;
+}
+
+.support.function {
+  color: #4ECDC4;
+}
+
+.support.constant {
+  color: #4ECDC4;
+}
+
+.support.type, .support.class {
+  font-style: italic;
+  color: #4ECDC4;
+}
+
+.support.other.variable {
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #00A8C6;
+}
+
+.invalid.deprecated {
+  color: #F8F8F0;
+  background-color: #8FBE00;
+}
+
+.meta.structure.dictionary.json .string.quoted.double.json {
+  color: #CFCFC2;
+}
+
+.meta.diff, .meta.diff.header {
+  color: #75715E;
+}
+
+.markup.deleted {
+  color: #00A8C6;
+}
+
+.markup.inserted {
+  color: #A6E22E;
+}
+
+.markup.changed {
+  color: #E6DB74;
+}
+
+.constant.numeric.line-number.find-in-files:not(.match) {
+  color: rgba(143, 190, 0, 0.63);
+}
+
+.entity.name.filename.find-in-files {
+  color: #E6DB74;
+}
+
+.entity {
+  font-style: italic;
+  color: #FD971F;
+}
