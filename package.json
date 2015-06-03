@@ -1,7 +1,7 @@
 {
   "name": "freshcut-theme",
   "theme": "syntax",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "the FreshCut theme for Atom",
   "repository": "https://github.com/ceejbot/freshcut-theme",
